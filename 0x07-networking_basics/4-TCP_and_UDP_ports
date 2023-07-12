@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# 4-TCP_and_UDP_ports: prints information about listning socket on a device.
+
+netstat -l --program
