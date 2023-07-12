@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# 1-list_your_processes: prints processes in a system in user oriented manner.
+
+ps -A -H u

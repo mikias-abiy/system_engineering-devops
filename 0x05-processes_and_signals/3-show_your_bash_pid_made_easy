@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# 3-show_your_bash_pid_made_easy: prints pids which there name inclue the word
+# bash.
+
+for i in $(pgrep bash); do
+	echo "$i bash"
+done
