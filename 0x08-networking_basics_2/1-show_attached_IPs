@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# 1-show_attached_IPs: show the IP address of active NIC on a machine
+
+ifconfig | grep  -Eo "inet ([0-9]{1,3}\.){3}[0-9]{1,3}" | awk '{print $2}'
